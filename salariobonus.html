@@ -1,0 +1,24 @@
+<!--Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro).
+Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var nome = (prompt("entre com o nome do funcionario"))
+var salario = Number(prompt("entre com salario fixo"))
+var numVendas = Number(prompt("entre com numero de vendas"))
+var comissao =  numVendas * 0.15
+var salario = salario + comissao
+
+document.write(" salario do funcionario: ", nome, " R$ " + salario.toFixed(2))
+
+    </script>
+    
+</body>
+</html>

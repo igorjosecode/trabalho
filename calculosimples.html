@@ -1,0 +1,29 @@
+<!--Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2
+ o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var codigo1 = (prompt("entre com o codigo da peça"))
+var numPeças1 = Number(prompt("entre com o numero de peças"))
+var valorUnitario1 = Number(prompt("entre com preço unitario"))
+
+var codigo2 = (prompt("entre com o codigo da peça"))
+var numPeças2 = Number(prompt("entre com o numero de peças"))
+var valorUnitario2 = Number(prompt("entre com preço unitario"))
+
+var preçoPeça1 =  numPeças1  * valorUnitario1 
+var preçoPeça2 = numPeças2 * valorUnitario2
+var valorTotal = preçoPeça1 + preçoPeça2
+
+document.write(" valor a pagar:  R$ " + valorTotal.toFixed(2))
+    </script>
+    
+</body>
+</html>

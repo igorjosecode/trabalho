@@ -1,0 +1,25 @@
+<!--Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário.
+ A seguir, mostre o número e o salário do funcionário, com duas casas decimais.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var numero = Number(prompt("entre com o numero de funcionario"))
+var horas = Number(prompt("entre com as horas trabalhadas"))
+var salario = Number(prompt("entre com o com o salario"))
+var valor = horas * salario 
+
+document.write(" salario do funcionario: "  + numero + "R$" + valor.toFixed(2))
+
+
+
+    </script>
+    
+</body>
+</html>
